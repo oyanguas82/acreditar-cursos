@@ -1,0 +1,14 @@
+{
+  "name": "acreditar-cursos",
+  "description": "Herramientas para preparar y revisar cursos UNAD",
+  "owner": {
+    "name": "oyanguas82"
+  },
+  "plugins": [
+    {
+      "name": "acreditacion-cursos-unad",
+      "source": "./plugins/acreditacion-cursos-unad",
+      "description": "Revisión, diseño y producción de expedientes de acreditación y certificación de cursos UNAD."
+    }
+  ]
+}

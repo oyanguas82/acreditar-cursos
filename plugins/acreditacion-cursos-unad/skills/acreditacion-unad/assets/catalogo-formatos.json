@@ -1,0 +1,146 @@
+[
+  {
+    "ruta": "assets/formatos/syllabus/ejemplo.pdf",
+    "bytes": 446876,
+    "sha256": "36e624b2abe18b4218ce21cdf4ba93d1a742ac8027857a1a32788a34818dcfeb",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/1. Formato Syllabus/1. Ejemplo Formato Syllabus del curso.pdf"
+  },
+  {
+    "ruta": "assets/formatos/syllabus/plantilla.docx",
+    "bytes": 190734,
+    "sha256": "1e13b623580ad236fbdd90a149b252c55526e27e860def45e1e1b9f2a37471a5",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/1. Formato Syllabus/1. Formato Syllabus del curso.docx"
+  },
+  {
+    "ruta": "assets/formatos/syllabus/instrucciones.pdf",
+    "bytes": 406781,
+    "sha256": "1d05cb1061761ae276dcd0a92f7384b88b0fb8d0fc18c6ea38e35d62900dcbe2",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/1. Formato Syllabus/1. Instrucciones Formato Syllabus del curso.pdf"
+  },
+  {
+    "ruta": "assets/formatos/guia-aprendizaje/ejemplo.pdf",
+    "bytes": 753730,
+    "sha256": "13827bcf6a098974ac3c0828e17119c4d7797940dd95b8c322b6f050b96594b8",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/2. Formato Guía de Aprendizaje/2. Ejemplo Formato Guía de aprendizaje.pdf"
+  },
+  {
+    "ruta": "assets/formatos/guia-aprendizaje/plantilla.docx",
+    "bytes": 155177,
+    "sha256": "f0fda5c531364c49b4ec715f1581ac6680ec94e78f6d61f63406021e4688b067",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/2. Formato Guía de Aprendizaje/2. Formato Guía de aprendizaje.docx"
+  },
+  {
+    "ruta": "assets/formatos/guia-aprendizaje/instrucciones.pdf",
+    "bytes": 315617,
+    "sha256": "f03a5c573484c084b6fb6d17ac30c961949a9674819545020c33bf1a56318769",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/2. Formato Guía de Aprendizaje/2. Instrucciones Formato Guía de aprendizaje.pdf"
+  },
+  {
+    "ruta": "assets/formatos/componente-practico/plantilla.docx",
+    "bytes": 147791,
+    "sha256": "a8c5f09aa858142ccce5510d4aa9162940c5a87635cf70cafffc3f458e053c25",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/3. Formato Guía para el desarrollo del componente práctico/1. Formato - Guía para el desarrollo del Componente Práctico.docx"
+  },
+  {
+    "ruta": "assets/formatos/componente-practico/instrucciones.pdf",
+    "bytes": 196241,
+    "sha256": "b9f09f7fc1e72e228c0707787d0e4a4db7e19072cf7f18ebec86eb57c1b023c6",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/3. Formato Guía para el desarrollo del componente práctico/2. Instrucciones - Guía para el desarrollo del Componente Práctico.pdf"
+  },
+  {
+    "ruta": "assets/formatos/componente-practico/ejemplo.pdf",
+    "bytes": 401795,
+    "sha256": "1fc3bca5ef0691fb711eda9eaee8760ff398db0fdf343a93a3caf57ef85064bf",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/3. Formato Guía para el desarrollo del componente práctico/3. Ejemplo - Guía para el desarrollo del Componente Práctico.pdf"
+  },
+  {
+    "ruta": "assets/formatos/rubrica/ejemplo.pdf",
+    "bytes": 185571,
+    "sha256": "900b142a0c33abb1c408770f0c62d8200aaddd129d9e7bc83a4d62f5494a1b9a",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/4. Formato Rúbrica de H-Evaluación/3. Ejemplo Formato Rúbrica de H-Evaluación.pdf"
+  },
+  {
+    "ruta": "assets/formatos/rubrica/plantilla.docx",
+    "bytes": 153158,
+    "sha256": "834bfcf0b8b32796e7363adb206479a44a3d3001851eff95295a9c5f932c5212",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/4. Formato Rúbrica de H-Evaluación/3. Formato Rúbrica de H-Evaluación.docx"
+  },
+  {
+    "ruta": "assets/formatos/rubrica/instrucciones.pdf",
+    "bytes": 210308,
+    "sha256": "2e8d8425b21722bac059efa4504d5ea40dcf177198ae6e80930696aa2f2e4054",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/4. Formato Rúbrica de H-Evaluación/3. Instrucciones Formato Rúbrica de H-Evaluación.pdf"
+  },
+  {
+    "ruta": "assets/formatos/apendices/plantilla.docx",
+    "bytes": 140782,
+    "sha256": "e4bf7a32aa9807a33519fadf5dd7fa1f286a189cc8d4a413f0a6f8ca8435c72d",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/5. Apéndices/1. Formato apéndice.docx"
+  },
+  {
+    "ruta": "assets/formatos/apendices/plantilla.pptx",
+    "bytes": 139202,
+    "sha256": "61c2e18c7d5fdb623bab53348485696fe0b450c937d261e352c1ee7fb6684c71",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/5. Apéndices/1. Formato apéndice.pptx"
+  },
+  {
+    "ruta": "assets/formatos/apendices/plantilla.xlsx",
+    "bytes": 139456,
+    "sha256": "739cae17a1e8c9389fe182c793c0b5837cd1e42f135bc6d618a6e1f4cca5edb3",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/5. Apéndices/1. Formato apéndice.xlsx"
+  },
+  {
+    "ruta": "assets/formatos/preguntas/carga-masiva.xlsx",
+    "bytes": 220988,
+    "sha256": "45a9d86b2f5bbeadf96a6e0d1fc7e9a21cbd2fe9852d53e4610c9385589688e1",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/Carga masiva de preguntas - EXCEL v2.xlsx"
+  },
+  {
+    "ruta": "assets/formatos/ova/guion.pptx",
+    "bytes": 1455653,
+    "sha256": "202ae047e801edc746efbe5a462cb96b7b6b1574c382960087bfbc2c83a63f20",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/Guion_OVA_Demanda_V1.pptx"
+  },
+  {
+    "ruta": "assets/formatos/ovi/guion.pptx",
+    "bytes": 1789752,
+    "sha256": "125b98dbc43528036e3de476e3951e6a1e02efd99ba8c67127c324fae671b00f",
+    "procedencia": "Carpeta de formatos institucionales aportada por el usuario",
+    "uso": "Inclusión pública autorizada por el responsable del proyecto; ratificar versión con la oferta",
+    "ruta_original": "assets/formatos/Guion_OVI_Demanda_V1.pptx"
+  }
+]

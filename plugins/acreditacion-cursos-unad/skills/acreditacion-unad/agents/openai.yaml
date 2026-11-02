@@ -1,0 +1,6 @@
+interface:
+  display_name: "Asistente de acreditación de cursos UNAD"
+  short_description: "Diseñe materiales y revise el expediente de cada oferta."
+  default_prompt: "Use $acreditacion-unad para revisar mis fuentes, diseñar los materiales solicitados y constituir el expediente del curso UNAD."
+policy:
+  allow_implicit_invocation: true

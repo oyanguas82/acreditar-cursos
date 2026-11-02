@@ -1,0 +1,20 @@
+{
+  "name": "acreditar-cursos",
+  "interface": {
+    "displayName": "Acreditación de cursos UNAD"
+  },
+  "plugins": [
+    {
+      "name": "acreditacion-cursos-unad",
+      "source": {
+        "source": "local",
+        "path": "./plugins/acreditacion-cursos-unad"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    }
+  ]
+}

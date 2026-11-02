@@ -1,0 +1,4 @@
+156c072f2e90d95265b79cc3575fcf28674d940c9c6f3938b700d26b4b982633  acreditacion-cursos-unad-chatgpt-1.1.0.zip
+4b527bc3007d6d3d8f3c1e1cb2937d7c9267c2906e0188374e0932f6553a99be  acreditacion-cursos-unad-claude-1.1.0.zip
+d763afc5d7f5415ed71b83bd8f727b22f8d59a4dcad1c6ce30689fc53dae26b8  acreditacion-unad-1.1.0.zip
+d763afc5d7f5415ed71b83bd8f727b22f8d59a4dcad1c6ce30689fc53dae26b8  acreditacion-unad-1.1.0.skill

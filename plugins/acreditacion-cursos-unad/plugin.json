@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "acreditacion-cursos-unad",
+  "version": "1.1.0",
+  "description": "Revisión, diseño y producción de expedientes de acreditación y certificación de cursos UNAD.",
+  "homepage": "https://github.com/oyanguas82/acreditar-cursos",
+  "repository": "https://github.com/oyanguas82/acreditar-cursos",
+  "author": {
+    "name": "oyanguas82"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Asistente de acreditación de cursos UNAD",
+        "shortDescription": "Diseño y revisión de cursos",
+        "longDescription": "Revisión, diseño y producción de expedientes de acreditación y certificación de cursos UNAD.",
+        "developerName": "oyanguas82",
+        "category": "Education & Research",
+        "defaultPrompt": [
+          "Revise los documentos de mi curso UNAD y prepare un preconcepto con hallazgos y evidencias.",
+          "Diseñe una guía y una rúbrica a partir de la matriz curricular y los formatos de mi oferta.",
+          "Constituya el expediente del curso con syllabus, guías, rúbricas, OVA/OVI y pendientes verificables."
+        ],
+        "logo": "./assets/cuaderno.svg",
+        "composerIcon": "./assets/cuaderno.svg"
+      }
+    }
+  }
+}

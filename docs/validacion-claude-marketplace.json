@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "strict": true,
+  "target": ".\\.claude-plugin\\marketplace.json",
+  "manifest": {
+    "file": ".\\.claude-plugin\\marketplace.json",
+    "type": "marketplace",
+    "errors": [],
+    "warnings": [],
+    "notes": [],
+    "gatingHooks": []
+  },
+  "contents": [],
+  "advice": [],
+  "directory": null
+}
