@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Descargas · Acreditación de cursos UNAD</title>
-<meta name="description" content="Descarga los complementos para ChatGPT, Codex y Claude Code, o la skill independiente para Claude. Todos incluyen los 18 formatos institucionales.">
+<title>Funcionamiento y descargas · Acreditación de cursos UNAD</title>
+<meta name="description" content="Conoce cómo funciona el asistente de acreditación UNAD, qué materiales permite preparar y cómo apoya la revisión del curso. Descarga los paquetes con 18 formatos institucionales.">
 <meta name="theme-color" content="#123e3b">
 <style>
 :root{color-scheme:light;--ink:#163b38;--muted:#526763;--line:#dce5df;--green:#145b4d}
@@ -26,13 +26,127 @@ h2{font-size:26px;letter-spacing:-.035em;margin:30px 0 14px}.card p{color:var(--
 footer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);margin-top:40px;padding-top:22px;line-height:1.7}
 @media(max-width:900px){main{padding:32px 24px}.catalog{grid-template-columns:1fr}header{margin:48px 0 30px}.card p{min-height:0}.card{padding:24px}h2{margin-top:20px}.included{margin-top:0}.card-top{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.download{transition:none}}
+
+html{scroll-padding-top:24px}.page-nav{display:flex;flex-wrap:wrap;gap:10px;margin:32px 0 0;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.page-nav a,.back-downloads{color:var(--green);font-size:14px;font-weight:650;text-decoration:none}
+.page-nav a{padding:10px 14px;border:1px solid var(--line);border-radius:24px;background:#fff}
+.page-nav a:hover{background:#e7efe7}a:focus-visible,summary:focus-visible{outline:3px solid #b66b13;outline-offset:4px}
+.section{padding:64px 0;border-bottom:1px solid var(--line);scroll-margin-top:24px}
+.content h2{font-size:clamp(28px,3.3vw,40px);line-height:1.2;max-width:800px;margin:14px 0 24px}
+.content h3{font-size:20px;line-height:1.35;letter-spacing:-.02em;margin:16px 0 12px}
+.content p,.content li{font-size:16px;line-height:1.8;color:var(--muted)}.content p{margin:0 0 16px}.content p:last-child{margin-bottom:0}
+.content .lead{font-size:18px;max-width:880px;margin-bottom:30px}
+.flow{display:flex;align-items:stretch;gap:18px;margin:30px 0}.flow>div{flex:1;background:#e8efe7;border:1px solid #d7e2d5;border-radius:14px;padding:22px}
+.flow strong,.flow span:not(.flow-arrow){display:block}.flow strong{font-size:15px;margin-bottom:9px}.flow span{font-size:14px;line-height:1.6;color:var(--muted)}.flow .flow-arrow{align-self:center;font-size:24px}
+.capabilities{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.capabilities article{padding:28px;background:white;border:1px solid var(--line);border-radius:18px}
+.tag{color:var(--green);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.07em}
+.content .outcome{font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+.note{background:#e8efe7;border-left:4px solid var(--green);border-radius:0 12px 12px 0;padding:22px 26px;line-height:1.8;margin-top:28px;font-size:15px}
+.steps{display:grid;gap:12px}details{border:1px solid var(--line);border-radius:16px;background:white;overflow:hidden}
+summary{cursor:pointer;font-size:18px;font-weight:650;padding:22px 26px;display:flex;align-items:center;gap:18px;list-style:none}
+summary::-webkit-details-marker{display:none}summary::after{content:"+";margin-left:auto;font-size:24px;font-weight:400}details[open] summary::after{content:"−"}
+.step-number{display:grid;place-items:center;border-radius:50%;background:#e8efe7;min-width:32px;height:32px;color:var(--green);font-size:14px}
+.step-body{padding:0 28px 26px 76px;max-width:1000px}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:16px;background:#fff}
+table{width:100%;border-collapse:collapse;text-align:left;font-size:15px;line-height:1.7}
+caption{text-align:left;padding:20px;font-weight:600;color:var(--muted)}thead{background:#e8efe7}th,td{padding:18px 20px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:last-child>*{border-bottom:0}tbody th{width:23%}td{color:var(--muted)}
+.example{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px;margin:28px 0}
+.status-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.status-grid>div{background:white;border:1px solid var(--line);border-radius:14px;padding:24px}
+.status{display:inline-block;border-radius:6px;padding:5px 9px;font-size:12px;letter-spacing:.05em;margin-bottom:16px}.error{color:#8d301f;background:#fbece8}.improvement{color:#1b5746;background:#e5f2ea}.verify{color:#75500c;background:#fff2d6}
+.start-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.content ul{padding-left:20px}.content li{margin-bottom:8px}
+.prompt{padding:26px;background:#fff;border:1px solid var(--line);border-radius:16px}.prompt h3{margin-top:0}
+blockquote{margin:0 0 20px;border-left:3px solid var(--green);padding-left:18px;color:var(--ink);font-size:16px;line-height:1.8}
+.boundary{margin:32px 0;padding:28px;background:#163b38;border-radius:18px;color:white}.boundary h3{margin-top:0}.boundary p{color:#e1ebe6}
+.back-downloads{display:inline-block;padding:12px 0}
+@media(max-width:700px){.section{padding:44px 0}.capabilities,.status-grid,.start-grid{grid-template-columns:1fr}.flow{flex-direction:column;gap:10px}.flow .flow-arrow{transform:rotate(90deg)}.capabilities article,.example{padding:22px}.step-body{padding:0 22px 24px}summary{padding:20px;font-size:16px;gap:12px}.note{padding:20px}th,td{padding:14px;min-width:170px}caption{font-size:14px}.boundary{padding:22px}}
+
 </style>
 </head>
 <body><main>
 <div class="brand"><span class="mark" aria-hidden="true"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 3h14v18H5zM9 3v18m3-10 2 2 4-4"/></svg></span>Recursos para acreditación</div>
 <header><div class="eyebrow">Centro de descargas · v1.1.0</div><h1>Acreditación de<br>cursos UNAD</h1><p class="intro">Elige el paquete para tu plataforma. Todos incluyen los <strong>18 formatos institucionales autorizados</strong>.</p></header>
-<section class="catalog" aria-label="Paquetes disponibles"><article class="card"><div class="card-top"><span>Complemento</span><span class="number">01</span></div><h2>ChatGPT / Codex</h2><p>Flujo de acreditación y recursos académicos para ChatGPT y Codex.</p><div class="included"><span aria-hidden="true">✓</span> 18 formatos institucionales</div><a class="download" href="https://raw.githubusercontent.com/oyanguas82/acreditar-cursos/v1.1.0/dist/acreditacion-cursos-unad-chatgpt-1.1.0.zip" download="acreditacion-cursos-unad-chatgpt-1.1.0.zip" aria-label="Descargar Complemento para ChatGPT / Codex en ZIP">Descargar ZIP <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg></a><div class="file-meta">Versión 1.1.0 <span>·</span> 6,7 MB</div></article>
+<section id="descargas" class="catalog" aria-label="Paquetes disponibles"><article class="card"><div class="card-top"><span>Complemento</span><span class="number">01</span></div><h2>ChatGPT / Codex</h2><p>Flujo de acreditación y recursos académicos para ChatGPT y Codex.</p><div class="included"><span aria-hidden="true">✓</span> 18 formatos institucionales</div><a class="download" href="https://raw.githubusercontent.com/oyanguas82/acreditar-cursos/v1.1.0/dist/acreditacion-cursos-unad-chatgpt-1.1.0.zip" download="acreditacion-cursos-unad-chatgpt-1.1.0.zip" aria-label="Descargar Complemento para ChatGPT / Codex en ZIP">Descargar ZIP <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg></a><div class="file-meta">Versión 1.1.0 <span>·</span> 6,7 MB</div></article>
 <article class="card"><div class="card-top"><span>Complemento</span><span class="number">02</span></div><h2>Claude Code</h2><p>Complemento con la habilidad de acreditación y sus recursos integrados.</p><div class="included"><span aria-hidden="true">✓</span> 18 formatos institucionales</div><a class="download" href="https://raw.githubusercontent.com/oyanguas82/acreditar-cursos/v1.1.0/dist/acreditacion-cursos-unad-claude-1.1.0.zip" download="acreditacion-cursos-unad-claude-1.1.0.zip" aria-label="Descargar Complemento para Claude Code en ZIP">Descargar ZIP <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg></a><div class="file-meta">Versión 1.1.0 <span>·</span> 6,7 MB</div></article>
 <article class="card"><div class="card-top"><span>Skill independiente</span><span class="number">03</span></div><h2>Claude</h2><p>Habilidad lista para cargar en Claude, con instrucciones y recursos académicos.</p><div class="included"><span aria-hidden="true">✓</span> 18 formatos institucionales</div><a class="download" href="https://raw.githubusercontent.com/oyanguas82/acreditar-cursos/v1.1.0/dist/acreditacion-unad-1.1.0.zip" download="acreditacion-unad-1.1.0.zip" aria-label="Descargar Skill independiente para Claude en ZIP">Descargar ZIP <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg></a><div class="file-meta">Versión 1.1.0 <span>·</span> 6,7 MB</div></article></section>
+
+<nav class="page-nav" aria-label="Contenido de la página">
+<a href="#descargas">Descargas</a><a href="#funcionamiento">Cómo funciona</a><a href="#capacidades">Qué permite hacer</a><a href="#proceso">Proceso paso a paso</a><a href="#aporte">Cómo ayuda</a><a href="#empezar">Cómo empezar</a>
+</nav>
+<div class="content">
+<section id="funcionamiento" class="section">
+<div class="eyebrow">Una forma de trabajar con tus documentos</div>
+<h2>Del material del curso a un expediente organizado</h2>
+<p class="lead">El asistente reúne instrucciones de trabajo, criterios de revisión, formatos institucionales y una herramienta para comprobar rangos de rúbricas. Lo utilizas dentro de ChatGPT, Codex o Claude, aportando los documentos y el encargo de tu curso.</p>
+<div class="flow" aria-label="Secuencia de trabajo">
+<div><strong>01 · Aportas</strong><span>Fuentes y materiales del curso</span></div><span class="flow-arrow" aria-hidden="true">→</span>
+<div><strong>02 · Revisas con el asistente</strong><span>Coherencia, evidencias y ajustes</span></div><span class="flow-arrow" aria-hidden="true">→</span>
+<div><strong>03 · Preparas</strong><span>Entregables y pendientes para revisión</span></div>
+</div>
+<p>La <strong>skill</strong> contiene el procedimiento y sus recursos. El <strong>complemento</strong> permite distribuirla como un paquete para la plataforma correspondiente. El trabajo se realiza en la conversación de esa plataforma, con sus herramientas y permisos disponibles.</p>
+<p>El asistente parte de las fuentes que puede consultar, relaciona los elementos del curso y prepara archivos o propuestas según tu solicitud. Identifica la información faltante y conserva su estado como pendiente. La calidad de los resultados depende de la claridad del encargo, la calidad de las fuentes y la revisión docente.</p>
+</section>
+
+<section id="capacidades" class="section">
+<div class="eyebrow">Capacidades</div><h2>Qué puedes hacer con el asistente</h2>
+<div class="capabilities">
+<article><span class="tag">Revisión documental</span><h3>Conocer el estado del curso</h3><p>Inventariar carpetas y archivos, distinguir originales, plantillas, ejemplos y borradores, e identificar faltantes, duplicados o versiones contradictorias.</p><p class="outcome"><strong>Resultado:</strong> inventario y diagnóstico con evidencia localizable.</p></article>
+<article><span class="tag">Coherencia curricular</span><h3>Relacionar lo que se aprende y se evalúa</h3><p>Contrastar los resultados de aprendizaje del curso y del programa (RAC/RAP) con actividades, modalidad, evidencias, recursos y evaluación. Registrar las diferencias entre syllabus, guías, rúbricas y agenda.</p><p class="outcome"><strong>Resultado:</strong> matriz de trazabilidad y decisiones por ratificar.</p></article>
+<article><span class="tag">Diseño académico</span><h3>Ajustar syllabus y guías</h3><p>Preparar versiones de trabajo con propósitos, secuencia, instrucciones, recursos, productos y forma de entrega. Desarrollar la guía del componente práctico y sus apéndices cuando corresponda.</p><p class="outcome"><strong>Resultado:</strong> materiales editables sujetos a revisión académica.</p></article>
+<article><span class="tag">Evaluación</span><h3>Construir instrumentos coherentes</h3><p>Proponer criterios y descriptores observables, verificar sumas y rangos enteros, y preparar preguntas de selección con clave y retroalimentación. Exportar un banco GIFT para probar su importación en Moodle.</p><p class="outcome"><strong>Resultado:</strong> rúbricas y bancos con controles documentados.</p></article>
+<article><span class="tag">Recursos educativos</span><h3>Diseñar OVA y OVI</h3><p>Elaborar guiones para objetos virtuales de aprendizaje e información: objetivos, contenido, casos, interacción, retroalimentación, fuentes y alternativas de acceso. Según el encargo y las herramientas, producir vistas previas o recursos interactivos.</p><p class="outcome"><strong>Resultado:</strong> guion y recursos con su alcance de prueba identificado.</p></article>
+<article><span class="tag">Expediente</span><h3>Preparar una entrega revisable</h3><p>Ordenar fuentes, dispositivos, recursos, evidencias de revisión y pendientes. Elaborar un índice, registrar cambios y emitir un preconcepto que indique qué está comprobado y qué falta resolver.</p><p class="outcome"><strong>Resultado:</strong> expediente versionado y ruta de cierre.</p></article>
+</div>
+<div class="note"><strong>Los 18 archivos incluidos son formatos, instructivos y ejemplos.</strong> Orientan el trabajo y deben contrastarse con la versión aplicable a la oferta. El apéndice Excel original conserva 16 referencias rotas: el asistente debe reparar una copia y verificarla antes de usarla.</div>
+</section>
+
+<section id="proceso" class="section">
+<div class="eyebrow">Ruta de trabajo del asistente</div><h2>Cómo se desarrolla el proceso, paso a paso</h2>
+<p class="lead">Puedes pedir la ruta completa o trabajar sobre un material puntual. Esta secuencia organiza la preparación del expediente; el trámite institucional se determina con las fuentes aplicables a la oferta.</p>
+<div class="steps">
+<details open><summary><span class="step-number">1</span><span>Delimitar el curso, la oferta y el encargo</span></summary><div class="step-body"><p><strong>Tú aportas:</strong> nombre y código del curso, nivel, créditos, oferta de referencia y de destino, documentos disponibles y alcance del trabajo.</p><p><strong>El asistente hace:</strong> identifica las fuentes y versiones. Contrasta la asignación en la Oferta Académica Integrada (OAI), cuando esté disponible, para orientar el trámite de acreditación o certificación. El nombre de una carpeta no basta para deducir calendario o cohorte.</p><p><strong>Obtienes:</strong> ficha del caso, inventario inicial y lista de información por confirmar.</p></div></details>
+<details><summary><span class="step-number">2</span><span>Revisar el currículo y construir la trazabilidad</span></summary><div class="step-body"><p><strong>Tú aportas:</strong> documento maestro o matriz aprobada, syllabus, agenda, guías e instrumentos vigentes.</p><p><strong>El asistente hace:</strong> relaciona cada RAC/RAP con actividades, modalidad, evidencias, puntajes y recursos. Si encuentra dos formulaciones de un resultado de aprendizaje, conserva ambas y explica su efecto sobre la evaluación.</p><p><strong>Obtienes:</strong> matriz por actividad, diferencias documentadas y consulta concreta que debe resolver el programa. Una redacción propuesta queda identificada como propuesta.</p></div></details>
+<details><summary><span class="step-number">3</span><span>Diseñar o ajustar los materiales académicos</span></summary><div class="step-body"><p><strong>Tú decides:</strong> las prioridades de ajuste y las opciones didácticas que requieren aval.</p><p><strong>El asistente hace:</strong> prepara copias de trabajo del syllabus, guías, práctica, apéndices y rúbricas, manteniendo la relación entre logro, actividad y evidencia. Emplea los formatos ratificados y distingue el contenido ilustrativo del contenido propio del curso.</p><p><strong>Obtienes:</strong> archivos editables y registro de cambios. Su generación depende de las herramientas disponibles; si un formato no se puede producir, se identifica la conversión pendiente.</p></div></details>
+<details><summary><span class="step-number">4</span><span>Producir recursos y revisar la evaluación</span></summary><div class="step-body"><p><strong>Tú aportas:</strong> fuentes disciplinares, alcance del recurso, condiciones de uso y especificación de evaluación.</p><p><strong>El asistente hace:</strong> redacta guiones OVA/OVI y preguntas con retroalimentación. Revisa cobertura, claridad y accesibilidad. Comprueba la suma de puntos y detecta huecos o solapamientos en rangos enteros de rúbricas.</p><p><strong>Obtienes:</strong> recursos y bancos con pruebas registradas. Un guion, un paquete interactivo, una importación en Moodle y un depósito institucional se documentan como entregables o estados distintos.</p></div></details>
+<details><summary><span class="step-number">5</span><span>Registrar hallazgos y comprobar los ajustes</span></summary><div class="step-body"><p><strong>Tú aportas:</strong> la versión ajustada y las evidencias de aula o revisión que tengas disponibles.</p><p><strong>El asistente hace:</strong> clasifica cada hallazgo, señala su fuente, ubicación, efecto, prioridad, acción y prueba de cierre. Contrasta los campos equivalentes entre documentos y elementos del aula accesibles.</p><p><strong>Obtienes:</strong> una lista de ajustes comprobados y pendientes. La ausencia de una captura o de acceso se registra como información por verificar; por sí sola no demuestra un incumplimiento.</p></div></details>
+<details><summary><span class="step-number">6</span><span>Constituir el expediente y preparar la revisión institucional</span></summary><div class="step-body"><p><strong>Tú reúnes:</strong> los avales, evidencias de importación, revisión del aula, Bloque Revisor y registros de OAI que correspondan.</p><p><strong>El asistente hace:</strong> organiza el expediente por versión, crea el índice y prepara el preconcepto. Distingue borrador, comprobado en archivo, comprobado en aula, pendiente de decisión y aval institucional documentado.</p><p><strong>Obtienes:</strong> una entrega organizada para el responsable de la revisión y una ruta de cierre. El estado oficial y la decisión de acreditación o certificación los determina la instancia institucional competente.</p></div></details>
+</div>
+</section>
+
+<section id="aporte" class="section">
+<div class="eyebrow">Aporte al proceso</div><h2>Dónde concentra su ayuda</h2>
+<p class="lead">Su aporte esperado está en organizar, contrastar, producir y dar seguimiento. Te ayuda a llegar a la revisión con materiales más claros y con las decisiones pendientes identificadas.</p>
+<div class="table-wrap"><table><caption>Distribución del trabajo entre el asistente y el equipo académico</caption><thead><tr><th scope="col">Necesidad</th><th scope="col">Apoyo del asistente</th><th scope="col">Intervención del equipo</th></tr></thead><tbody>
+<tr><th scope="row">Documentos dispersos</th><td>Inventario, clasificación y localización de versiones.</td><td>Confirmar los documentos de referencia y su vigencia.</td></tr>
+<tr><th scope="row">Inconsistencias entre materiales</th><td>Comparación de campos y matriz por actividad.</td><td>Resolver discrepancias curriculares y aprobar la formulación final.</td></tr>
+<tr><th scope="row">Elaboración de dispositivos</th><td>Redacción y producción de borradores conforme al encargo.</td><td>Revisar rigor disciplinar, pertinencia didáctica y presentación.</td></tr>
+<tr><th scope="row">Errores de evaluación</th><td>Verificación de sumas, rangos, claves y relación con la evidencia.</td><td>Ratificar escala, criterios y calidad de los descriptores.</td></tr>
+<tr><th scope="row">Preparación para revisión</th><td>Índice, preconcepto, registro de hallazgos y condiciones de cierre.</td><td>Probar en el aula, reunir evidencias y tramitar el aval.</td></tr>
+</tbody></table></div>
+<div class="example"><span class="tag">Ejemplo concreto</span><h3>Una rúbrica asigna el puntaje 16 a dos niveles</h3><p>En un criterio de 20 puntos, el nivel medio abarca 12–16 y el alto 16–20. El asistente detecta el solapamiento, identifica el criterio afectado y propone revisar los límites conforme a la escala aprobada. Después comprueba que cada puntaje tenga una única asignación.</p><p><strong>Ayuda práctica:</strong> hace visible una ambigüedad antes de evaluar al estudiante y deja una comprobación que permite cerrar el hallazgo.</p></div>
+<div class="status-grid">
+<div><strong class="status error">ERROR</strong><p>Hay una exigencia aplicable y evidencia observable de una discrepancia.</p></div>
+<div><strong class="status improvement">MEJORA</strong><p>Se propone un ajuste para mejorar claridad, coherencia o calidad.</p></div>
+<div><strong class="status verify">VERIFICAR</strong><p>Falta una fuente, evidencia, acceso o decisión para concluir.</p></div>
+</div>
+<div class="note"><strong>Qué se ha comprobado hasta ahora.</strong> En dos casos sintéticos, la habilidad cumplió 10 de 10 comprobaciones. Las ejecuciones sin la habilidad también cumplieron 10 de 10. El verificador numérico pasó 13 pruebas. Estas pruebas respaldan esos casos y controles, pero no permiten afirmar un porcentaje de ahorro de tiempo, una mejora general frente a otros métodos ni una probabilidad de obtener la acreditación.</div>
+</section>
+
+<section id="empezar" class="section">
+<div class="eyebrow">Primer uso</div><h2>Qué aportar y cómo pedir el trabajo</h2>
+<div class="start-grid"><div><h3>Prepara los insumos disponibles</h3><ul>
+<li>Datos del curso y ofertas de referencia y destino.</li>
+<li>Documento maestro o matriz curricular aprobada.</li>
+<li>Syllabus, agenda, guías, rúbricas y recursos existentes.</li>
+<li>Formatos, instructivos y lineamientos aplicables a la oferta.</li>
+<li>Evidencias del aula y observaciones de revisiones anteriores.</li>
+</ul><p>Si falta algún insumo, indica cuál. Se puede avanzar en las tareas independientes mientras se identifica qué decisión requiere esa información.</p></div>
+<div class="prompt"><h3>Ejemplo de solicitud inicial</h3><blockquote>Usa la habilidad acreditacion-unad para revisar la carpeta de mi curso. Toma [oferta de referencia] como base de [oferta de destino]. Inventaría los archivos, identifica las fuentes aplicables y construye la matriz de trazabilidad. Entrega hallazgos con evidencia, prioridad y condición de cierre. Prepara los ajustes autorizados en copias nuevas y señala lo que debe ratificar el programa.</blockquote><p>Después puedes pedir un producto concreto: «Con la evidencia y el puntaje aprobados, prepara la guía y la rúbrica de la actividad F2».</p></div></div>
+<div class="boundary"><h3>Responsabilidades que permanecen en la institución</h3><p>El equipo académico valida el currículo, la vigencia de los instrumentos, la calidad disciplinar y las decisiones de evaluación. Las pruebas del aula, la revisión formal y el aval de acreditación o certificación requieren evidencia y participación del rol competente.</p><p>El paquete no incluye una conexión propia a Moodle, OAI o al repositorio de recursos. Cualquier comprobación o cambio en esas plataformas necesita acceso efectivo y un encargo que lo autorice. La revisión de fuentes, autoría y accesibilidad forma parte de la entrega.</p></div>
+<a class="back-downloads" href="#descargas">Volver a los paquetes descargables ↑</a>
+</section>
+</div>
+
 <footer>Paquetes completos en formato ZIP · Materiales institucionales con su procedencia y atribución.</footer>
 </main></body></html>
